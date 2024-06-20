@@ -578,7 +578,7 @@ body {
 }
 
 .services-list div {
-    width: 20%;
+    width: 30%;
     background-color: transparent;
     display: flex;
     flex-direction: column;
