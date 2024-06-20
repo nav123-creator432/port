@@ -321,6 +321,7 @@ body {
 @media (max-width: 480px) {
     .rightsection img {
         width: 60%;
+        margin:10px;
     }
 
     .home-content h1 {
@@ -550,7 +551,7 @@ body {
 
 .subtitle {
     text-align: center;
-    font-size: calc(1em + 4vw);
+    font-size: calc(1em + 3vw);
     padding-bottom: 30px;
 }
 
