@@ -10,7 +10,7 @@ let menuicon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
 let sections = document.querySelectorAll("section");
-let navLinks = document.querySelectorAll("header nav ul li a");
+let navLinks = document.querySelectorAll("header nav  a");
 
 window.onscroll = () => {
   let top = window.scrollY;
@@ -26,7 +26,7 @@ window.onscroll = () => {
       });
 
       document
-        .querySelector(`header nav ul li a[href*='${id}']`)
+        .querySelector(header nav a[href*='${id}'])
         .classList.add("active");
     }
   });
