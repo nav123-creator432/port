@@ -80,7 +80,8 @@ body {
     }
 
     #menu-icon {
-        font-size: 3rem;
+        font-size: 1rem;
+        padding:5px;
     }
 }
 
@@ -106,7 +107,7 @@ body {
         display: none;
         max-height: 800px;
         min-height: 700px;
-        height: 90vh;
+        height: 80vh;
         max-width: 350px;
         padding-right: 5%;
     }
@@ -117,13 +118,13 @@ body {
 
     .navbar a {
         display: block;
-        font-size: 2rem;
+        font-size: 1rem;
         margin: 3rem 0;
     }
 
     .navbar a:hover,
     .navbar a.active {
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid var(--main-color);
     }
